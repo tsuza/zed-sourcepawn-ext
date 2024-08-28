@@ -1,0 +1,4 @@
+name = "Sourcepawn"
+grammar = "sourcepawn"
+path_suffixes = ["sp"]
+line_comments = ["// "]

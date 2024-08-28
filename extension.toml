@@ -1,0 +1,15 @@
+id = "sourcepawn"
+name = "Sourcepawn"
+version = "0.0.1"
+schema_version = 1
+authors = ["tsuza <tsuza@proton.me>"]
+description = "An extension that adds basic language support, including LSP & highlighting, for Sourcepawn."
+repository = "https://github.com/tsuza/zed-sourcepawn-ext"
+
+[language_servers.sourcepawn-studio]
+name = "sourcepawn-studio"
+language = "Sourcepawn"
+
+[grammars.sourcepawn]
+repository = "https://github.com/nilshelmig/tree-sitter-sourcepawn"
+commit = "6b9bf9cbab91443380d2ca8a2f6c491cc7fac5bf"
